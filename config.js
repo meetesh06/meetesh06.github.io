@@ -11,6 +11,14 @@ export const leftSide = {
   ]
 }
 
+// If this website will be hosted somewhere that is non root, for example
+// github.user.io/SomeRepo
+// Set BASEPATH = "SomeRepo"
+// 
+// Otherwise, set it to undefined
+
+export const BASE_PATH = undefined
+
 export const TITLE_HOME = "Meetesh's Homepage 🏴‍☠️ 🏴‍☠️ 🏴‍☠️"
 export const TITLE_BLOG = "Meetesh's Blog"
 

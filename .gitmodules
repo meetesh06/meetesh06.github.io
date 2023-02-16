@@ -1,0 +1,4 @@
+[submodule "easyNextBlog"]
+	path = easyNextBlog
+	url = https://github.com/meetesh06/easyNextBlog
+	branch = main

@@ -59,7 +59,7 @@ res["categories"] = [...res["categories"]]
 
 console.log(`Generated ${res.posts.length} posts, ${res.categories.length} categories`);
 
-fs.writeFile("gghb/src/blogPostsData.json", JSON.stringify(res), function(err) {
+fs.writeFile("easyNextBlog/src/blogPostsData.json", JSON.stringify(res), function(err) {
   if (err) {
     console.log(err);
   }
@@ -68,7 +68,7 @@ fs.writeFile("gghb/src/blogPostsData.json", JSON.stringify(res), function(err) {
 // Handle Pages
 
 // 1. Remove old pages
-const oldPagesDir = __dirname + "/gghb/src/pages";
+const oldPagesDir = __dirname + "/easyNextBlog/src/pages";
 const protected = ["_app.js", "_document.js", "404.js"];
 const oldPages = fs.readdirSync(oldPagesDir, { withFileTypes: true });
 const listOfOldPages = oldPages
@@ -108,8 +108,11 @@ listOfPages.forEach((f) => {
 
 pagesData.pages.push(["Blog", "/blog", res["posts"].length == 0])
 
-fs.writeFile("gghb/src/pagesData.json", JSON.stringify(pagesData), function(err) {
+fs.writeFile("easyNextBlog/src/pagesData.json", JSON.stringify(pagesData), function(err) {
   if (err) {
     console.log(err);
   }
 });
+
+fs.copyFileSync(__dirname + "/config.js", __dirname + "/easyNextBlog/src/config.js");
+fs.copyFileSync(__dirname + "/basePath.json", __dirname + "/easyNextBlog/basePath.json");
