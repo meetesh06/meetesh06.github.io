@@ -24,6 +24,8 @@ build: config.js posts/*/*.md pages/*.js
 dev: config.js posts/*/*.md pages/*.js
 		git submodule update --init --recursive
 		cd easyNextBlog/ && git stash
+		cd easyNextBlog/ && git checkout main
+		cd easyNextBlog/ && git stash
 		cd easyNextBlog/ && npm i
 		node generate.js
 		npm run --prefix easyNextBlog/ dev

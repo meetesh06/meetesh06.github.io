@@ -38,7 +38,8 @@ directoriesInDIrectory.forEach((currCat) => {
 
     postData.splice(0,5);
     const currPost = {
-      "id": title.replace(/[^A-Z0-9]/ig, "+"),
+      refId: idx++,
+      id: title.replace(/[^A-Z0-9]/ig, "+"),
       category,
       lineage,
       title,
