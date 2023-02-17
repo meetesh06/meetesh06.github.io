@@ -151,7 +151,8 @@ res.posts.forEach(p => {
   fs.appendFileSync('public/sitemap.xml', `  </url>\n`);
 })
 
-fs.rmSync("easyNextBlog/public", { recursive: true, force: true });
-fs.cpSync("public", "easyNextBlog/public", { recursive: true, force: true });
-
 fs.appendFileSync('public/sitemap.xml', '</urlset>');
+fs.rmSync("easyNextBlog/public", { recursive: true, force: true });
+
+
+fs.cpSync("public", "easyNextBlog/public", { recursive: true, force: true });
