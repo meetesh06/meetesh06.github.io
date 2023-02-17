@@ -1,5 +1,7 @@
 const fs = require('fs');
 
+const website = "https://meetesh06.github.io/" 
+
 // Handle Posts
 const getProcessed = (s) => {
   return s.substring(4,s.length-3).trim()
@@ -117,3 +119,40 @@ fs.writeFile("easyNextBlog/src/pagesData.json", JSON.stringify(pagesData), funct
 
 fs.copyFileSync(__dirname + "/config.js", __dirname + "/easyNextBlog/src/config.js");
 fs.copyFileSync(__dirname + "/basePath.json", __dirname + "/easyNextBlog/basePath.json");
+
+// Generate sitemap.xml
+fs.writeFileSync('public/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n');
+fs.appendFileSync('public/sitemap.xml', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n');
+
+const today = new Date().toJSON().slice(0, 10);
+
+
+listOfPages.forEach((f) => {
+  fs.appendFileSync('public/sitemap.xml', `  <url>\n`);
+  if (f == "index.js") {
+    fs.appendFileSync('public/sitemap.xml', `    <loc>${website}</loc>\n`);
+    fs.appendFileSync('public/sitemap.xml', `    <lastmod>${today}</lastmod>\n`);
+  } else {
+    fs.appendFileSync('public/sitemap.xml', `    <loc>${website+f.split(".")[0]}</loc>\n`);
+    fs.appendFileSync('public/sitemap.xml', `    <lastmod>${today}</lastmod>\n`);
+  }
+  fs.appendFileSync('public/sitemap.xml', `  </url>\n`);
+})
+
+fs.appendFileSync('public/sitemap.xml', `  <url>\n`);
+fs.appendFileSync('public/sitemap.xml', `    <loc>${website}blog</loc>\n`);
+fs.appendFileSync('public/sitemap.xml', `    <lastmod>${today}</lastmod>\n`);
+fs.appendFileSync('public/sitemap.xml', `  </url>\n`);
+
+res.posts.forEach(p => {
+  fs.appendFileSync('public/sitemap.xml', `  <url>\n`);
+  fs.appendFileSync('public/sitemap.xml', `    <loc>${website + "blog/" + p.id}</loc>\n`);
+  fs.appendFileSync('public/sitemap.xml', `    <lastmod>${today}</lastmod>\n`);
+  fs.appendFileSync('public/sitemap.xml', `  </url>\n`);
+})
+
+fs.rmSync("easyNextBlog/public", { recursive: true, force: true });
+fs.cpSync("public", "easyNextBlog/public", { recursive: true, force: true });
+
+fs.appendFileSync('public/sitemap.xml', '</urlset>\n');
+
