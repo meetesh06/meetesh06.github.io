@@ -14,7 +14,7 @@ To ensure reproducibility, researchers must use transparent and rigorous methods
 
 ## (Option 1) My solution
 
-I use this script to set up core shielding on my i7 12700k for benchmarking purposes. This ensures that the variance is typically less than 0.5% with performance, which is in line with expectations (as recommended by https://llvm.org/docs/Benchmarking.html).
+I use this script to set up core shielding on my i7 12700k for benchmarking purposes. This ensures that the variance is typically less than 0.5% with performance, which is in line with expectations (as recommended by [LLVM](https://llvm.org/docs/Benchmarking.html)).
 
 While it's possible to turn off power-saving features and disable cores from the terminal, I prefer to do it in the BIOS for greater control. You can use this script to enable core shielding directly, but don't worry if it doesn't work – the shields are reset on reboot in case it doesn't.
 
