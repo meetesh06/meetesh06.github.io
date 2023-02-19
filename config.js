@@ -1,6 +1,6 @@
 export const SITENAME = "Hello World";
 
-export const light = createTheme({
+export const lightTheme = {
   palette: {
     mode: 'light',
     background: {
@@ -14,13 +14,13 @@ export const light = createTheme({
       secondary: '#000'
     }
   } 
-});
+};
 
-export const dark = createTheme({
+export const darkTheme = {
   palette: {
     mode: 'dark',
   } 
-});
+};
 
 export const leftSide = {
   image: "/blog-pic.webp",
