@@ -18,9 +18,10 @@ const content = [
     id: undefined,
     text: undefined,
     textList: [
+      ["23rd Feb 2023", "Attended ISEC at IIIT Allahabad"],
       ["3rd Feb 2023", "Presented Synopsis Seminar"],
       ["29th Nov 2022", "Presented Open Seminar"],
-      ["29th Oct 2022", "Submitted to OOPSLA 2023"],
+      // ["29th Oct 2022", "Submitted to OOPSLA 2023"],
     ],
     created: undefined
   },
@@ -66,7 +67,7 @@ const content = [
     id: undefined,
     text: undefined,
     textList: [
-      ["C, C++, Java", "Experience in large real world projects"],
+      ["C, C++, Java, LLVM", "Experience in large real world projects"],
       ["React/Native, JS, R", "A lot of fun projects like this site. Worked on a JIT compiler for R called Rsh."],
       ["Scripting", "Routinely use scripting languages like python, bash, JS, etc."],
       ["Databases", "Am comfortable in mongo, SQL, etc."],
