@@ -60,7 +60,7 @@ const content = [
     created: undefined
   },
   {
-    title: "Vasco points to debugger",
+    title: "Points to debugger",
     links: undefined, 
     index: undefined,
     imageUri: undefined,

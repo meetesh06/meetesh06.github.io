@@ -1,12 +1,12 @@
 import GridPage from "@/components/GridPage"
 
-const gridInfo = { xs: 1, sm: 1, md: 3, lg: 3 }
+const gridInfo = { xs: 1, sm: 1, md: 4, lg: 4 }
 export const config = {
   disable: false
 }
 
 const TITLE = "Meetesh Mehta 🏴‍☠️ 🏴‍☠️ 🏴‍☠️"
-const DESCRIPTION = "Hello! My name is Meetesh Mehta, and I am a research scholar at IIT Mandi specializing in the field of compilers. Specifically, I am interested in JIT Compilers, and my recent research has focused on reduction on warmup and deoptimization times. Compilers are a critical component of modern computing systems, and my work seeks to increase the level of specialization performed at runtime while keeping overheads to a minimum. I'm excited to share my findings with you and discuss this fascinating field further."
+const DESCRIPTION = "Hello! My name is Meetesh Mehta, and I am a research scholar at IIT Bombay specializing in the field of compilers. Specifically, I am interested in JIT Compilers, and my recent research has focused on reduction on warmup and deoptimization times. Compilers are a critical component of modern computing systems, and my work seeks to increase the level of specialization performed at runtime while keeping overheads to a minimum. I'm excited to share my findings with you and discuss this fascinating field further."
 
 const content = [
   {
@@ -18,10 +18,11 @@ const content = [
     id: undefined,
     text: undefined,
     textList: [
+      ["27th July 2023", "Joined IIT Bombay"],
+      ["3rd June 2023", `[Workshop] Meetesh Kalpesh Mehta (with Manas Thakur). “Debugging Contextually Specialized JIT Runtimes: Challenges and Strategies”. Software Engineering Research in India (SERI), Goa University, India, June 2nd-3rd, 2023.`],
       ["23rd Feb 2023", "Attended ISEC at IIIT Allahabad"],
-      ["3rd Feb 2023", "Presented Synopsis Seminar"],
-      ["29th Nov 2022", "Presented Open Seminar"],
-      // ["29th Oct 2022", "Submitted to OOPSLA 2023"],
+      ["3rd Feb 2023", "Presented MS Synopsis Seminar"],
+      ["29th Nov 2022", "Presented MS Open Seminar"],
     ],
     created: undefined
   },
@@ -43,7 +44,7 @@ const content = [
     imageUri: undefined,
     href: undefined,
     id: undefined,
-    text: "Internship opportunities as a Researcher",
+    text: "Thoughtful conversations on compilers",
     textList: undefined,
     created: undefined
   },
@@ -58,23 +59,23 @@ const content = [
     textList: undefined,
     created: undefined
   },
-  {
-    title: "Skills",
-    links: undefined, 
-    index: undefined,
-    imageUri: undefined,
-    href: undefined,
-    id: undefined,
-    text: undefined,
-    textList: [
-      ["C, C++, Java, LLVM", "Experience in large real world projects"],
-      ["React/Native, JS, R", "A lot of fun projects like this site. Worked on a JIT compiler for R called Rsh."],
-      ["Scripting", "Routinely use scripting languages like python, bash, JS, etc."],
-      ["Databases", "Am comfortable in mongo, SQL, etc."],
-      ["Teaching Assistant", "CS502 Compiler Design, C302 Paradigms of Programming"],
-    ],
-    created: undefined
-  },
+  // {
+  //   title: "Skills",
+  //   links: undefined, 
+  //   index: undefined,
+  //   imageUri: undefined,
+  //   href: undefined,
+  //   id: undefined,
+  //   text: undefined,
+  //   textList: [
+  //     ["C, C++, Java, LLVM", "Experience in large real world projects"],
+  //     ["React/Native, JS, R", "A lot of fun projects like this site. Worked on a JIT compiler for R called Rsh."],
+  //     ["Scripting", "Routinely use scripting languages like python, bash, JS, etc."],
+  //     ["Databases", "Am comfortable in mongo, SQL, etc."],
+  //     ["Teaching Assistant", "CS502 Compiler Design, C302 Paradigms of Programming"],
+  //   ],
+  //   created: undefined
+  // },
   {
     title: "Quote",
     links: undefined, 
@@ -106,8 +107,9 @@ const content = [
     id: undefined,
     text: undefined,
     textList: [
+      ["2023+: PhD CSE", "IIT Bombay Department of Computer Science and Engineering"],
       ["2020-2023: M.S (by Research) CSE", "IIT Mandi School of Computing and Electrical Engineering"],
-      ["2020: GATE CSE", "Cleared GATE examination."],
+      // ["2020: GATE CSE", "Cleared GATE examination."],
       ["2016-2020: B.Tech CSE", "MRIIRS, NCR-Faridabad"],
       ["2014-2016: High School", "Sri Gayatri Junior College, Hyderabad"],
       ["2004-2014: Primary School", "Bharatiya Vidya Bhavans Public School, Hyderabad"],
@@ -117,8 +119,7 @@ const content = [
   {
     title: "Highlights",
     links: [
-      ["https://www.cse.iitb.ac.in/~manas/","Dr. Manas Thakur"],
-      ["https://compl.iitmandi.ac.in/","CompL"],
+      ["https://www.cse.iitb.ac.in/~manas/","Dr. Manas Thakur"]
     ], 
     index: undefined,
     imageUri: undefined,
