@@ -1,16 +1,17 @@
-export const SITENAME = "Hello World";
+export const SITENAME = "Hello World.";
 
 export const lightTheme = {
   palette: {
     mode: 'light',
     background: {
-      paper: '#e1e5f2',
+      paper: '#f1f1f1',
+      default: '#fff'
     },
     primary: {
-      main: "#2274a5"
+      main: "#613659"
     },
     text: {
-      primary: '#010334',
+      primary: '#fff',
       secondary: '#000'
     }
   } 
@@ -25,10 +26,11 @@ export const darkTheme = {
 export const leftSide = {
   image: "/blog-pic.webp",
   name: "Meetesh Kalpesh Mehta",
-  about: "Hello there! I am a research scholar at IIT Bombay, specializing in the field of compilers. Currently, my research focuses on addressing challenge of warmup times and deoptimization overheads on a JIT compiler for the R Programming Language. In addition to my research, I am passionate about coding in React and have utilized it in creating websites, such as this one. Beyond my computer science pursuits, I enjoy tinkering with Raspberry Pi's and Arduinos during my free time.",
+  about: "Hello there! I am a research scholar at IIT Bombay, working in the field of compilers and programming languages. I have experience on working with real world JIT compilers. In addition to my research, I am passionate about coding in React and have utilized it in creating websites, such as this one. Beyond my computer science pursuits, I enjoy tinkering with Raspberry Pi's and Arduinos during my free time.",
   getInTouchText: "Always looking forward to new emails :)",
   contactLinks: [
-    ["mailto:meeteshmehta4@gmail.com","Email"],
+    ["mailto:meeteshmehta@cse.iitb.ac.in","Email1"],
+    ["mailto:meeteshmehta@iitb.ac.in","Email2"],
     ["https://www.linkedin.com/in/meetesh06/","LinkedIn"],
   ]
 }

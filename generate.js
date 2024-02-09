@@ -100,10 +100,10 @@ Object.defineProperty(String.prototype, 'capitalize', {
   enumerable: false
 });
 
+pagesData.pages.push(["Home","/", false])
+
 listOfPages.forEach((f) => {
-  if (f == "index.js") {
-    pagesData.pages.push(["Home","/", false])
-  } else {
+  if (f != "index.js") {
     pagesData.pages.push([f.split(".")[0].capitalize(),"/" + f.split(".")[0], false])
   }
   fs.copyFileSync(pagesDir + "/" + f, oldPagesDir + "/" + f);
