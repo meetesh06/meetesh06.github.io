@@ -12,7 +12,7 @@ const DESCRIPTION = "What is going on around Meetesh."
 
 const content = [
   {
-    title: "Received Vashee Award for Best Performance in PhD Admission",
+    title: "Received Nilesh Vashee Award for Best Performance in PhD Admission",
     text: 'The award had already been given upon admission, but was prize was conditional to good performance in the coursework. The ceremony took place on 7th February. (Left) Me, (Right) Prof varsha Apte, IITB Head of CSE Department.',
     imageUri: "/nilesh-vashee-award.jpg",
     created: "7th February 2023"
