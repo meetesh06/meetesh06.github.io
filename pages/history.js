@@ -23,6 +23,26 @@ const content = [
     created: "27th December 2023"
   },
   {
+    title: "Presented a talk @ RHPL (Workshop on Research Highlights in Programming Languages) 2023",
+    text: `Talk titled "Reusing Just-in-Time Compiled Code" based on recently published work @ OOPSLA 20023. RHPL (co-located with FSTTCS 2023) was organized at IIIT Hyderabad, India, Dec 18th—20th, 2023.`,
+    created: "19th December 2023",
+    links: [
+      ["https://fmindia.cmi.ac.in/rhpl/index.html", "RHPL 2023"],
+      ["/RHPL-23.pdf", "Slides (PDF)"],
+      ["https://doi.org/10.1145/3622839","(Read here) 10.1145/3622839"]
+    ]
+  },
+  {
+    title: "Presented @ VMIL 2023 remotely",
+    created: "23rd October 2023",
+    text: "This talk was given remotely as we couldn't make it for SPLASH 2023, Cascais, Portugal.",
+    links: [
+      ["https://youtu.be/pd_Px8LaHvw?t=20041", "Watch the recording"],
+      ["/VMIL-23-talk.pdf", "Slides (PDF)"],
+      ["https://doi.org/10.1145/3623507.3623549","(Read here) 10.1145/3623507.3623549"]
+    ]
+  },
+  {
     title: "Published paper @ VMIL 2023",
     created: "19th October 2023",
     text: "Debugging Dynamic Language Features in a Multi-tier Virtual Machine",
@@ -50,11 +70,13 @@ const content = [
     ], 
   },
   {
-    title: "Presented @ SERI 2023",
-    text: `“Debugging Contextually Specialized JIT Runtimes: Challenges and Strategies”. Software Engineering Research in India (SERI), Goa University, India, June 2nd-3rd, 2023.`,
+    title: "Presented a talk @ SERI 2023",
+    text: `Talk titled “Debugging Contextually Specialized JIT Runtimes: Challenges and Strategies” based on recently published work @ VMIL 2023 (co-located OOPSLA 2023). Software Engineering Research in India (SERI) was organized at Goa University, India, June 2nd-3rd, 2023.`,
     created: "3rd June 2023",
     links: [
-      ["https://sites.google.com/view/seri-2023-goa", "SERI 2023"]
+      ["https://sites.google.com/view/seri-2023-goa", "SERI 2023"],
+      ["/seri-23-talk.pdf", "Slides (PDF)"],
+      ["https://doi.org/10.1145/3623507.3623549","(Read here) 10.1145/3623507.3623549"]
     ]
   },
   {
