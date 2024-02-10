@@ -13,9 +13,12 @@ const DESCRIPTION = "What is going on around Meetesh."
 const content = [
   {
     title: "Received Nilesh Vashee Award for Best Performance in PhD Admission",
-    text: 'The award had already been given upon admission, but was prize was conditional to good performance in the coursework. The ceremony took place on 7th February. (Left) Me, (Right) Prof varsha Apte, IITB Head of CSE Department.',
+    text: 'The award had already been given upon admission, but was prize was conditional to good performance in the coursework. The ceremony took place on 7th February. (Left) Me, (Right) Dr. Varsha Apte, IITB Head of CSE Department.',
     imageUri: "/nilesh-vashee-award.jpg",
-    created: "7th February 2023"
+    created: "7th February 2023",
+    links: [
+      ["https://www.cse.iitb.ac.in/~varsha/", "Dr. Varsha Apte"]
+    ]
   },
   {
     title: "Completed 6 months @ IITB [2023-24/Autumn]",
@@ -24,12 +27,14 @@ const content = [
   },
   {
     title: "Presented a talk @ RHPL (Workshop on Research Highlights in Programming Languages) 2023",
-    text: `Talk titled "Reusing Just-in-Time Compiled Code" based on recently published work @ OOPSLA 20023. RHPL (co-located with FSTTCS 2023) was organized at IIIT Hyderabad, India, Dec 18th—20th, 2023.`,
+    text: `Talk titled "Reusing Just-in-Time Compiled Code" based on recently published work @ OOPSLA 20023. RHPL (co-located with FSTTCS 2023) was organized at IIIT Hyderabad, India, Dec 18th—20th, 2023. Left (Me), Right (my advisor, Dr. Manas Thakur).`,
+    imageUri: '/RHPL-23-pic.jpg',
     created: "19th December 2023",
     links: [
       ["https://fmindia.cmi.ac.in/rhpl/index.html", "RHPL 2023"],
       ["/RHPL-23.pdf", "Slides (PDF)"],
-      ["https://doi.org/10.1145/3622839","(Read here) 10.1145/3622839"]
+      ["https://doi.org/10.1145/3622839","(Read here) 10.1145/3622839"],
+      ["https://www.cse.iitb.ac.in/~manas/","Dr. Manas Thakur"]
     ]
   },
   {
