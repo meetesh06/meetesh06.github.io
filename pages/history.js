@@ -12,6 +12,17 @@ const DESCRIPTION = "What is going on around Meetesh."
 
 const content = [
   {
+    title: "Completed first year @ IITB, cleared qualifiers for PhD",
+    text: "Honestly I was comfortable with the subjects and enjoyed digging deeper into topics. I enjoyed the seminar work where I digged deeper into type systems (both theory and practice). Also I read The Great Gatsby, Kafka on the shore, Norwegian Wood, What I talk about when I talk about running, The palace of illusions and Crime and Punishment. We also did a compilers specific event at IITB, see the link for details.",
+    imageUri: "/trad-day.jpg",
+    created: "31st May 2023",
+    links: [
+      ["https://www.cse.iitb.ac.in/~uday/CPLD/", "PLACID @ IITB (PL and Compilers in Industry Day)"],
+      ["/23d0361_phd_seminar.pdf", "PhD Seminar Report (Type Systems For Dynamic Languages)"],
+      ["/phd-seminar-slides.pdf", "PhD Seminar Slider (Type Systems For Dynamic Languages)"]
+    ]
+  },
+  {
     title: "Received Nilesh Vashee Award for Best Performance in PhD Admission",
     text: 'The award had already been given upon admission, but was prize was conditional to good performance in the coursework. The ceremony took place on 7th February. (Left) Me, (Right) Dr. Varsha Apte, IITB Head of CSE Department.',
     imageUri: "/nilesh-vashee-award.jpg",
