@@ -13,9 +13,9 @@ const content = [
   
 
   {
-    title: "PhD @ IIT Bombay, second semester",
-    text: 'I am currently doing a literature survey. Looking into topics such as dependent types, dynamic deoptimization and debugging.',
-    created: "Updated: 9th Feb 2024"
+    title: "PhD @ IIT Bombay, completed one year",
+    text: 'Cleared qualifiers for PhD, now the real work begins :)',
+    created: "Updated: 31st May 2024"
   },
 
   {
