@@ -23,8 +23,8 @@ const content = [
     text: "It was an interesting sem, learnt about a lot about type systems and had fun comparing different language implementations.",
     created: "31st May 2023",
     links: [
-      ["/23d0361_phd_seminar.pdf", "PhD Seminar Report (Type Systems For Dynamic Languages)"],
-      ["/phd-seminar-slides.pdf", "PhD Seminar Slider (Type Systems For Dynamic Languages)"]
+      ["/23d0361_phd_seminar.pdf", "Report (PDF)"],
+      ["/phd-seminar-slides.pdf", "Slides (PDF)"]
     ]
   },
 
