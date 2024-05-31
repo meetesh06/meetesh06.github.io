@@ -14,7 +14,7 @@ const content = [
   {
     title: "Completed first year @ IITB, cleared qualifiers for PhD",
     text: "Honestly I was comfortable with the subjects and enjoyed digging deeper into topics. I enjoyed the seminar work where I digged deeper into type systems (both theory and practice). Also I read The Great Gatsby, Kafka on the shore, Norwegian Wood, What I talk about when I talk about running, The palace of illusions and Crime and Punishment. We also did a compilers specific event at IITB, see the link for details.",
-    imageUri: "/trad-day.jpg",
+    imageUri: "/trad-day.jpeg",
     created: "31st May 2023",
     links: [
       ["https://www.cse.iitb.ac.in/~uday/CPLD/", "PLACID @ IITB (PL and Compilers in Industry Day)"],
