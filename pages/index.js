@@ -14,8 +14,28 @@ const content = [
 
   {
     title: "PhD @ IIT Bombay, completed one year",
-    text: 'Cleared qualifiers for PhD, now the real work begins :)',
-    created: "Updated: 31st May 2024"
+    text: 'I am working on static analysis of JavaScript Programs.',
+    created: "Updated: 13th October 2024"
+  },
+
+  {
+    title: "[Presentation] Presented at IICT-2024",
+    text: 'IICT = Innovations In Compiler Technology workshop',
+    created: "29th September 2024",
+    links: [
+      ["https://compilertech.org", "IICT (2024)"],
+      ["/IICT-PPT-RC2.pdf", "My Slides (PDF)"]
+    ]
+  },
+
+  {
+    title: "[Service] Part of OOPSLA 24 Artifact Evaluation Committee",
+    text: 'Evaluated six artifacts',
+    created: "10th October 2023",
+    links: [
+      ["https://2024.splashcon.org", "Splash 2024"],
+      ["https://2024.splashcon.org/profile/meeteshkalpeshmehta", "My Splashcon profile"],
+    ]
   },
 
   {

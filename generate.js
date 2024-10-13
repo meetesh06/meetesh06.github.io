@@ -1,9 +1,11 @@
 const fs = require('fs');
+const path = require('path')
 
 const website = "https://meetesh06.github.io/" 
 
 // Handle Posts
 const getProcessed = (s) => {
+  console.log(s)
   return s.substring(4,s.length-3).trim()
 }
 
@@ -30,6 +32,9 @@ directoriesInDIrectory.forEach((currCat) => {
     .map((item) => item.name);
 
   postsInCategory.forEach((currPostPath) => {
+    if (path.extname(currPostPath) !== ".md") return;
+
+    console.log("Processing ", currPostPath)
     const postFile = fs.readFileSync(postsPath + "/" + currCat + "/" + currPostPath)
     const postData = postFile.toString().split("\n")
     const title = getProcessed(postData[0])
