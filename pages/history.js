@@ -12,6 +12,17 @@ const DESCRIPTION = "What is going on around Meetesh."
 
 const content = [
   {
+    title: "[Presentation] Presented at IICT-2024",
+    text: 'IICT = Innovations In Compiler Technology workshop',
+    imageUri: "/iict.jpg",
+    created: "29th September 2024",
+    links: [
+      ["https://compilertech.org", "IICT (2024)"],
+      ["/IICT-PPT-RC2.pdf", "My Slides (PDF)"],
+      ["https://www.youtube.com/watch?v=5yYm6mYRiO8&feature=youtu.be", "Talk Recording"]
+    ]
+  },
+  {
     title: "Completed first year @ IITB, cleared qualifiers for PhD",
     text: "Honestly I was comfortable with the subjects and enjoyed digging deeper into topics. I enjoyed the seminar work where I digged deeper into type systems (both theory and practice). Also I read The Great Gatsby, Kafka on the shore, Norwegian Wood, What I talk about when I talk about running, The palace of illusions and Crime and Punishment. We also did a compilers specific event at IITB called PLACID '24.",
     imageUri: "/trad-day.jpeg",
@@ -19,7 +30,7 @@ const content = [
     links: [
       ["https://www.cse.iitb.ac.in/~uday/CPLD/", "PLACID @ IITB"],
       ["/23d0361_phd_seminar.pdf", "Report (PDF)"],
-      ["/phd-seminar-slides.pdf", "Slides (PDF)"]
+      ["/phd-seminar-slides.pdf", "Slides (PDF)"],
     ]
   },
   {

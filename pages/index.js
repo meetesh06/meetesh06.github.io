@@ -14,8 +14,8 @@ const content = [
 
   {
     title: "PhD @ IIT Bombay, completed one year",
-    text: 'I am working on static analysis of JavaScript Programs.',
-    created: "Updated: 13th October 2024"
+    text: 'I am working on static analysis of JavaScript Programs. Dr Manas and I are actively working on Iridium (our secret framework) for JavaScript Static Analysis 🤞',
+    created: "Updated: 18th Jan 2025"
   },
 
   {
@@ -24,7 +24,8 @@ const content = [
     created: "29th September 2024",
     links: [
       ["https://compilertech.org", "IICT (2024)"],
-      ["/IICT-PPT-RC2.pdf", "My Slides (PDF)"]
+      ["/IICT-PPT-RC2.pdf", "My Slides (PDF)"],
+      ["https://www.youtube.com/watch?v=5yYm6mYRiO8&feature=youtu.be", "Talk Recording"]
     ]
   },
 
