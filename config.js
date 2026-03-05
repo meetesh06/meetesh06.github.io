@@ -26,7 +26,7 @@ export const darkTheme = {
 export const leftSide = {
   image: "/blog-pic.webp",
   name: "Meetesh Kalpesh Mehta",
-  about: "Hello there! I am a research scholar at IIT Bombay, working in the field of compilers and programming languages. I have experience on working with real world JIT compilers. In addition to my research, I am passionate about coding in React and have utilized it in creating websites, such as this one. Beyond my computer science pursuits, I enjoy tinkering with Raspberry Pi's and Arduinos during my free time.",
+  about: "Hello there! I am a PhD research scholar at IIT Bombay, working in the field of compilers and programming languages. I am working a new static analysis framework for JavaScript called IRIDIUM (published ~ OOPSLA26). I dedicate my free time to learning Linux, QEMU and RISC V. I have a private discord where we dabble in these things, if you are interested get in touch :)",
   getInTouchText: "Always looking forward to new emails :)",
   contactLinks: [
     ["mailto:meeteshmehta@cse.iitb.ac.in","Email1"],

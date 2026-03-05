@@ -10,7 +10,48 @@ const DESCRIPTION = "Hello! My name is Meetesh Mehta, and I am a PhD scholar at 
 
 const content = [
 
-  
+  {
+    title: "[OOPSLA 2026] IRIDIUM: A Framework for Statically Optimizing JavaScript Programs",
+    links: [
+      ["https://www.cse.iitb.ac.in/~manas/docs/preprints/oopsla26-r1.pdf","Preprint"],
+      ["/oopsla26-r1.pdf", "Download (PDF)"],
+    ],
+    index: undefined,
+    imageUri: undefined,
+    href: undefined,
+    id: undefined,
+    text: `Static analysis of JavaScript remains notoriously difficult due to the language's dynamically typed nature, unconventional scoping rules, and pervasive side effects. Unlike mature infrastructures such as LLVM for C/C++ or Soot for Java, comparable frameworks for JavaScript are fragmented and limited in scope. In this paper, we introduce IRIDIUM, a first-of-its-kind framework to statically optimize JavaScript programs. IRIDIUM systematically lowers JavaScript into a structured intermediate representation (called IRI) that models bindings, environments, and control flow explicitly. The resultant expressiveness enables more predictable analyses and transformations, ranging from dataflow tracking to optimization passes to executable code generation for existing runtimes, that are otherwise hindered by the language’s complexity. By bridging the gap between JavaScript’s surface syntax and the requirements of static analysis, IRIDIUM, thus, lays the foundation for a new generation of tools that can reason effectively about modern JavaScript applications.`,
+    textList: undefined,
+    created: "17th February 2026"
+  },
+
+  {
+    title: "PhD @ IIT Bombay, completed two years",
+    text: 'Our research has been submitted and is under review. Fingers Crossed :)',
+    created: "1st Jan 2026"
+  },
+
+  {
+    title: "[Presentation] Presented at IICT-2025 (What does an IR for JS static analysis look like?)",
+    text: 'IICT = Innovations In Compiler Technology workshop',
+    created: "28th September 2025",
+    links: [
+      ["https://compilertech.org", "IICT (2025)"],
+      ["/IICT-PPT-2025.pdf", "My Slides (PDF)"],
+      ["https://youtu.be/dvR46pc66H0?si=MX5UUXWWy_8Zq6RN", "Talk Recording"]
+    ]
+  },
+
+
+  {
+    title: "[Presentation] Annual Progress Report",
+    text: 'APS report - 2',
+    created: "10th September 2024",
+    links: [
+      ["/PHD_APS_Report_2.pdf", "Report (PDF)"],
+      ["/PHD_APS_PPT.pdf", "My Slides (PDF)"],
+    ]
+  },
 
   {
     title: "PhD @ IIT Bombay, completed one year",
@@ -23,7 +64,7 @@ const content = [
     text: 'IICT = Innovations In Compiler Technology workshop',
     created: "29th September 2024",
     links: [
-      ["https://compilertech.org", "IICT (2024)"],
+      ["https://compilertech.org/2024", "IICT (2024)"],
       ["/IICT-PPT-RC2.pdf", "My Slides (PDF)"],
       ["https://www.youtube.com/watch?v=5yYm6mYRiO8&feature=youtu.be", "Talk Recording"]
     ]

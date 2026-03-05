@@ -12,12 +12,23 @@ const DESCRIPTION = "What is going on around Meetesh."
 
 const content = [
   {
+    title: "[Presentation] Presented at IICT-2025",
+    text: 'IICT = Innovations In Compiler Technology workshop (picture from diwali celebrations at home)',
+    imageUri: "/afteriict.jpeg",
+    created: "28th September 2025",
+    links: [
+      ["https://compilertech.org", "IICT (2025)"],
+      ["/IICT-PPT-2025.pdf", "My Slides (PDF)"],
+      ["https://youtu.be/dvR46pc66H0?si=MX5UUXWWy_8Zq6RN", "Talk Recording"]
+    ]
+  },
+  {
     title: "[Presentation] Presented at IICT-2024",
     text: 'IICT = Innovations In Compiler Technology workshop',
     imageUri: "/iict.jpg",
     created: "29th September 2024",
     links: [
-      ["https://compilertech.org", "IICT (2024)"],
+      ["https://compilertech.org/2024", "IICT (2024)"],
       ["/IICT-PPT-RC2.pdf", "My Slides (PDF)"],
       ["https://www.youtube.com/watch?v=5yYm6mYRiO8&feature=youtu.be", "Talk Recording"]
     ]
