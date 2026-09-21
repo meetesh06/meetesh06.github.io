@@ -1,19 +1,32 @@
-import GridPage from "@/components/GridPage"
+import GridPage from "@/components/GridPage";
 
-const gridInfo = { xs: 1, sm: 1, md: 2, lg: 3 }
+const gridInfo = { xs: 1, sm: 1, md: 2, lg: 3 };
 export const config = {
-  disable: false
-}
+  disable: false,
+};
 
-const TITLE = "Meetesh Mehta 🏴‍☠️ 🏴‍☠️ 🏴‍☠️"
-const DESCRIPTION = "Hello! My name is Meetesh Mehta, and I am a PhD scholar at IIT Bombay specializing in the field of compilers. Specifically, I am interested in JIT Compilers, and my recent research has focused on reduction on warmup and deoptimization times. Compilers are a critical component of modern computing systems, and my work seeks to increase the level of specialization performed at runtime while keeping overheads to a minimum. I'm excited to share my findings with you and discuss this fascinating field further."
+const TITLE = "Meetesh Mehta 🏴‍☠️ 🏴‍☠️ 🏴‍☠️";
+const DESCRIPTION =
+  "Hello! My name is Meetesh Mehta, and I am a PhD scholar at IIT Bombay specializing in the field of compilers. Specifically, I am interested in JIT Compilers, and my recent research has focused on reduction on warmup and deoptimization times. Compilers are a critical component of modern computing systems, and my work seeks to increase the level of specialization performed at runtime while keeping overheads to a minimum. I'm excited to share my findings with you and discuss this fascinating field further.";
 
 const content = [
-
   {
-    title: "[OOPSLA 2026] IRIDIUM: A Framework for Statically Optimizing JavaScript Programs",
+    title: "[Presentation] Annual Progress Report",
+    text: "APS report - 3",
+    created: "21st September 2026",
     links: [
-      ["https://www.cse.iitb.ac.in/~manas/docs/preprints/oopsla26-r1.pdf","Preprint"],
+      ["/PHD_APS_Report_3.pdf", "Report (PDF)"],
+      ["/PHD_APS_PPT_3.pdf", "My Slides (PDF)"],
+    ],
+  },
+  {
+    title:
+      "[OOPSLA 2026] IRIDIUM: A Framework for Statically Optimizing JavaScript Programs",
+    links: [
+      [
+        "https://www.cse.iitb.ac.in/~manas/docs/preprints/oopsla26-r1.pdf",
+        "Preprint",
+      ],
       ["/oopsla26-r1.pdf", "Download (PDF)"],
     ],
     index: undefined,
@@ -22,62 +35,68 @@ const content = [
     id: undefined,
     text: `Static analysis of JavaScript remains notoriously difficult due to the language's dynamically typed nature, unconventional scoping rules, and pervasive side effects. Unlike mature infrastructures such as LLVM for C/C++ or Soot for Java, comparable frameworks for JavaScript are fragmented and limited in scope. In this paper, we introduce IRIDIUM, a first-of-its-kind framework to statically optimize JavaScript programs. IRIDIUM systematically lowers JavaScript into a structured intermediate representation (called IRI) that models bindings, environments, and control flow explicitly. The resultant expressiveness enables more predictable analyses and transformations, ranging from dataflow tracking to optimization passes to executable code generation for existing runtimes, that are otherwise hindered by the language’s complexity. By bridging the gap between JavaScript’s surface syntax and the requirements of static analysis, IRIDIUM, thus, lays the foundation for a new generation of tools that can reason effectively about modern JavaScript applications.`,
     textList: undefined,
-    created: "17th February 2026"
+    created: "17th February 2026",
   },
 
   {
     title: "PhD @ IIT Bombay, completed two years",
-    text: 'Our research has been submitted and is under review. Fingers Crossed :)',
-    created: "1st Jan 2026"
+    text: "Our research has been submitted and is under review. Fingers Crossed :)",
+    created: "1st Jan 2026",
   },
 
   {
-    title: "[Presentation] Presented at IICT-2025 (What does an IR for JS static analysis look like?)",
-    text: 'IICT = Innovations In Compiler Technology workshop',
+    title:
+      "[Presentation] Presented at IICT-2025 (What does an IR for JS static analysis look like?)",
+    text: "IICT = Innovations In Compiler Technology workshop",
     created: "28th September 2025",
     links: [
       ["https://compilertech.org", "IICT (2025)"],
       ["/IICT-PPT-2025.pdf", "My Slides (PDF)"],
-      ["https://youtu.be/dvR46pc66H0?si=MX5UUXWWy_8Zq6RN", "Talk Recording"]
-    ]
+      ["https://youtu.be/dvR46pc66H0?si=MX5UUXWWy_8Zq6RN", "Talk Recording"],
+    ],
   },
-
 
   {
     title: "[Presentation] Annual Progress Report",
-    text: 'APS report - 2',
-    created: "10th September 2024",
+    text: "APS report - 2",
+    created: "10th September 2025",
     links: [
       ["/PHD_APS_Report_2.pdf", "Report (PDF)"],
       ["/PHD_APS_PPT.pdf", "My Slides (PDF)"],
-    ]
+    ],
   },
 
   {
     title: "PhD @ IIT Bombay, completed one year",
-    text: 'I am working on static analysis of JavaScript Programs. Dr Manas and I are actively working on Iridium (our secret framework) for JavaScript Static Analysis 🤞',
-    created: "Updated: 18th Jan 2025"
+    text: "I am working on static analysis of JavaScript Programs. Dr Manas and I are actively working on Iridium (our secret framework) for JavaScript Static Analysis 🤞",
+    created: "Updated: 18th Jan 2025",
   },
 
   {
     title: "[Presentation] Presented at IICT-2024",
-    text: 'IICT = Innovations In Compiler Technology workshop',
+    text: "IICT = Innovations In Compiler Technology workshop",
     created: "29th September 2024",
     links: [
       ["https://compilertech.org/2024", "IICT (2024)"],
       ["/IICT-PPT-RC2.pdf", "My Slides (PDF)"],
-      ["https://www.youtube.com/watch?v=5yYm6mYRiO8&feature=youtu.be", "Talk Recording"]
-    ]
+      [
+        "https://www.youtube.com/watch?v=5yYm6mYRiO8&feature=youtu.be",
+        "Talk Recording",
+      ],
+    ],
   },
 
   {
     title: "[Service] Part of OOPSLA 24 Artifact Evaluation Committee",
-    text: 'Evaluated six artifacts',
+    text: "Evaluated six artifacts",
     created: "10th October 2023",
     links: [
       ["https://2024.splashcon.org", "Splash 2024"],
-      ["https://2024.splashcon.org/profile/meeteshkalpeshmehta", "My Splashcon profile"],
-    ]
+      [
+        "https://2024.splashcon.org/profile/meeteshkalpeshmehta",
+        "My Splashcon profile",
+      ],
+    ],
   },
 
   {
@@ -86,64 +105,54 @@ const content = [
     created: "31st May 2023",
     links: [
       ["/23d0361_phd_seminar.pdf", "Report (PDF)"],
-      ["/phd-seminar-slides.pdf", "Slides (PDF)"]
-    ]
+      ["/phd-seminar-slides.pdf", "Slides (PDF)"],
+    ],
   },
 
-  
   {
     title: "[MS Thesis] Reusing Contextually Specialized JIT Precompiled Units",
-    links: [
-      ["/MS-thesis.pdf","(Read here) Link to PDF"]
-    ], 
+    links: [["/MS-thesis.pdf", "(Read here) Link to PDF"]],
     index: undefined,
     imageUri: undefined,
     href: undefined,
     id: undefined,
     text: undefined,
     textList: undefined,
-    created: "8th June 2023"
+    created: "8th June 2023",
   },
 
   {
     title: "Highlights",
-    links: [
-      ["https://www.cse.iitb.ac.in/~manas/","Dr. Manas Thakur"]
-    ], 
+    links: [["https://www.cse.iitb.ac.in/~manas/", "Dr. Manas Thakur"]],
     index: undefined,
     imageUri: "./compl.webp",
     href: undefined,
     id: undefined,
     text: "Working with Dr. Manas Thakur and the CompL group has been the most rewarding and fulfilling part of my life :) I am proud of.",
     textList: undefined,
-    created: undefined
+    created: undefined,
   },
-  
-  
-  
-  
+
   {
     title: "[OOPSLA 2023] Reusing Just-in-Time Compiled Code",
-    links: [
-      ["https://doi.org/10.1145/3622839","(Read here) 10.1145/3622839"]
-    ],
+    links: [["https://doi.org/10.1145/3622839", "(Read here) 10.1145/3622839"]],
     index: undefined,
     imageUri: undefined,
     href: undefined,
     id: undefined,
     text: `Most code is executed more than once. If not entire programs then libraries remain unchanged from one run to the next. Just-in-time compilers expend considerable effort gathering insights about code they compiled many times, and often end up generating the same binary over and over again. We explore how to reuse compiled code across runs of different programs to reduce warm-up costs of dynamic languages. We propose to use speculative contextual dispatch to select versions of functions from an off-line curated code repository. That repository is a persistent database of previously compiled functions indexed by the context under which they were compiled. The repository is curated to remove redundant code and to optimize dispatch. We assess practicality by extending Ř, a compiler for the R language, and evaluating its performance. Our results suggest that the approach improves warmup times while preserving peak performance.`,
     textList: undefined,
-    created: "16th October 2023"
+    created: "16th October 2023",
   },
 
-  
-
-  
-
   {
-    title: "[VMIL 2023] Debugging Dynamic Language Features in a Multi-tier Virtual Machine",
+    title:
+      "[VMIL 2023] Debugging Dynamic Language Features in a Multi-tier Virtual Machine",
     links: [
-      ["https://doi.org/10.1145/3623507.3623549","(Read here) 10.1145/3623507.3623549"]
+      [
+        "https://doi.org/10.1145/3623507.3623549",
+        "(Read here) 10.1145/3623507.3623549",
+      ],
     ],
     index: undefined,
     imageUri: undefined,
@@ -151,25 +160,23 @@ const content = [
     id: undefined,
     text: undefined,
     textList: undefined,
-    created: "19th October 2023"
+    created: "19th October 2023",
   },
   {
     title: "Research Interests",
-    links: undefined, 
+    links: undefined,
     index: undefined,
     imageUri: undefined,
     href: undefined,
     id: undefined,
     text: "Compilers, JITs, Programming Languages, Security",
     textList: undefined,
-    created: undefined
+    created: undefined,
   },
-
-  
 
   // {
   //   title: "Something About Me",
-  //   links: undefined, 
+  //   links: undefined,
   //   index: undefined,
   //   imageUri: undefined,
   //   href: undefined,
@@ -180,7 +187,7 @@ const content = [
   // },
   // {
   //   title: "Skills",
-  //   links: undefined, 
+  //   links: undefined,
   //   index: undefined,
   //   imageUri: undefined,
   //   href: undefined,
@@ -197,18 +204,18 @@ const content = [
   // },
   {
     title: "Quote",
-    links: undefined, 
+    links: undefined,
     index: undefined,
     imageUri: undefined,
     href: undefined,
     id: undefined,
     text: "Logic processed infinitely is emotion.",
     textList: undefined,
-    created: undefined
+    created: undefined,
   },
   // {
   //   title: "Interests",
-  //   links: undefined, 
+  //   links: undefined,
   //   index: undefined,
   //   imageUri: undefined,
   //   href: undefined,
@@ -219,7 +226,7 @@ const content = [
   // },
   // {
   //   title: "Education",
-  //   links: undefined, 
+  //   links: undefined,
   //   index: undefined,
   //   imageUri: undefined,
   //   href: undefined,
@@ -235,10 +242,13 @@ const content = [
   //   ],
   //   created: undefined
   // },
+];
 
-  
-  
-]
-
-
-export default () => <GridPage title={TITLE} description={DESCRIPTION} gridInfo={gridInfo} content={content} />
+export default () => (
+  <GridPage
+    title={TITLE}
+    description={DESCRIPTION}
+    gridInfo={gridInfo}
+    content={content}
+  />
+);
